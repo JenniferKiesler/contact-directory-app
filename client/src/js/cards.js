@@ -37,7 +37,7 @@ form.addEventListener('submit', (event) => {
 const fetchCards = async () => {
 // Grab card data from IndexedDB
   const result = await getDb();
-
+  
   let card = ` `;
 
   // Loop through the data and create the contact card
